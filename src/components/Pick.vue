@@ -5,7 +5,7 @@
       <div class="row">
         <div class="offset-md-4 col-md-4">
           <div class="form-group">
-              <label for="">9 bolsas</label>
+              <label for="">{{bags.length}} Bolsas</label>
               <ul class="list-group">
                 <li class="list-item" v-for="(bag, index) in bags"><b>{{index + 1}}</b>) {{bag}}</li>
               </ul>
