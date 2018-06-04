@@ -1,6 +1,6 @@
 <template>
   <div class="romanos">
-    <h1>{{ msg }}</h1>
+    <h3>{{ msg }}</h3>
     <div class="content">
       <div class="row">
         <div class="offset-md-4 col-md-4">
